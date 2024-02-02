@@ -1,4 +1,7 @@
 ---
 title: Education
-sidebar_position: 1
+sidebar_position: 2
 ---
+
+BFIN - Australian National University
+- Distinction WAM

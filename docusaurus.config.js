@@ -91,14 +91,22 @@ const config = {
             to: '/projects',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Books',
+            to: '/books/to-read'
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            position: 'left',
+            label: 'Resume',
+            to: '/resume/experience'
+          },
+          {
+            position: 'right',
+            label: 'Blog',
+            to: '/blog',
+          },
+          {
+            href: 'https://github.com/lukafilipxvic',
             label: 'GitHub',
             position: 'right',
           },
@@ -112,7 +120,7 @@ const config = {
             items: [
               {
                 label: 'LinkedIn',
-                href: 'https://linkedin.com/lukafilipxvic',
+                href: 'https://linkedin.com/in/lukafilipxvic',
               },
             ],
           },
