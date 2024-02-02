@@ -42,18 +42,22 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
+          path: 'content',
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/lukafilipxvic/lukafilipxvic.github.io/tree/main/',
         },
         blog: {
+          blogTitle: 'My blog',
+          blogDescription: 'A Docusaurus powered blog!',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/lukafilipxvic/lukafilipxvic.github.io/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -81,6 +85,11 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {
+            position: 'left',
+            label: 'Projects',
+            to: '/projects',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
