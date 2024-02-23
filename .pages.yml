@@ -30,3 +30,7 @@ content:
       - name: title
         label: Website title
         type: string
+      - name: description
+        label: Website description
+        type: string
+        description: Will be provused for any page with no description.
