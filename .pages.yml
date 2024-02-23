@@ -27,10 +27,6 @@ content:
     path: docusaurus.config.js
     type: file
     fields:
-      - name: title
-        label: Website title
+      - name: config
+        label: Website config file
         type: string
-      - name: description
-        label: Website description
-        type: string
-        description: Will be provused for any page with no description.
