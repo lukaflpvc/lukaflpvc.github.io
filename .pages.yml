@@ -22,8 +22,8 @@ content:
       - name: body
         label: Body
         type: rich-text
-  - name: site
-    label: Site settings
+  - name: config
+    label: Site Configurations
     path: docusaurus.config.js
     type: file
     fields:
