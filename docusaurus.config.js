@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from 'prism-react-renderer';
+import tailwindPlugin from './plugins/tailwind-config.cjs';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -35,6 +36,8 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [tailwindPlugin],
 
   presets: [
     [
@@ -106,9 +109,19 @@ const config = {
             to: '/blog',
           },
           {
-            href: 'https://github.com/lukafilipxvic',
-            label: 'GitHub',
             position: 'right',
+            href: 'https://linkedin.com/in/lukafilipxvic',
+            className: 'navbar--linkedin-link'
+          },
+          {
+            position: 'right',
+            href: 'https://twitter.com/lukafilipxvic',
+            className: 'navbar--twitter-link'
+          },
+          {
+            position: 'right',
+            href: 'https://github.com/lukafilipxvic',
+            className: 'navbar--github-link'
           },
         ],
       },
@@ -121,6 +134,10 @@ const config = {
               {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/in/lukafilipxvic',
+              },
+              {
+                label: 'Email',
+                href: 'mailto:luka@lukafilipovic.com?subject=Hello from my site'
               },
             ],
           },
