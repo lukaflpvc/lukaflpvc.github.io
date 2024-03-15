@@ -1,6 +1,6 @@
 # Personal Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator, and [Tailwind CSS](https://tailwindcss.com/).
 
 ### Installation
 
