@@ -8,4 +8,4 @@ import Projects from '@site/src/components/Projects.tsx'
 
 <HeadTitle title="Projects | Luka Filipović" />
 
-<Projects />
+<Projects/>

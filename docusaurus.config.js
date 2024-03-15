@@ -5,7 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from 'prism-react-renderer';
-import tailwindPlugin from './plugins/tailwind-config.cjs';
+import tailwindPlugin from './plugins/tailwind-config.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -84,8 +84,8 @@ const config = {
       navbar: {
         title: 'Luka Filipović',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Filipović Family Crest',
+          src: 'img/filipovic_crest.svg',
         },
         items: [
           {
@@ -95,13 +95,13 @@ const config = {
           },
           {
             position: 'left',
-            label: 'Books',
-            to: '/books/to-read'
+            label: 'Resume',
+            to: '/resume/experience'
           },
           {
             position: 'left',
-            label: 'Resume',
-            to: '/resume/experience'
+            label: 'Reading List',
+            to: '/reading-list/to-read'
           },
           {
             position: 'right',
@@ -172,7 +172,7 @@ const config = {
             ],
           },
         ],
-        //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Luka Filipović`,
       },
       prism: {
         theme: prismThemes.github,

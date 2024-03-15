@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 const projects = [
     {
         title: 'App Store Rank',
+        source_code: '',
         link: 'https://apprank.streamlit.app',
         desc: 'Historical App Store ranks for applications.',
         language: 'Python',
@@ -10,6 +11,7 @@ const projects = [
     },
     {
         title: 'UltraSearch',
+        source_code: '',
         link: 'https://ultrasearch.cc',
         image: '/projects/ultrasearch.gif',
         desc: 'Library Genesis Wrapper for Speed',
@@ -18,12 +20,14 @@ const projects = [
     },
     {
         title: 'My Personal Website',
-        link: 'https://github.com/lukafilipxvic/lukafilipxvic.github.io',
-        language: 'JavaScript',
+        source_code: 'https://github.com/lukafilipxvic/lukafilipxvic.github.io',
+        link: 'https://lukafilipovic.com',
+        language: 'React JS',
         article: '',
     },
     {
         title: 'Snapchat Filters',
+        source_code: '',
         link: 'https://www.snapchat.com/add/lukafilipxvic',
         desc: 'Snapchat filters',
         language: 'Javascript',
@@ -60,12 +64,26 @@ export default function Projects() {
                                 className="mr-4 !no-underline"
                             >
                                 <button
-                                    className="flex rounded-xl p-2 whitespace-nowrap text-sm font-semibold bg-[#0088CC] hover:bg-grey-300 hover:dark:bg-grey-200 hover:text-[#0088CC] hover:no-underline"
+                                    className="flex rounded-xl p-2 whitespace-nowrap text-sm font-semibold bg-[#b93430] hover:bg-grey-300 hover:dark:bg-grey-200 hover:text-[#0088CC] hover:no-underline"
                                     type="button"
                                 >
-                                    Source code
+                                    View Project
                                 </button>
                             </a>
+                            {project.source_code && (
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={project.source_code} 
+                                >
+                                    <button
+                                        className="flex rounded-xl p-2 whitespace-nowrap text-sm"
+                                        type="button"
+                                    >
+                                        Source Code
+                                    </button>
+                                </a>
+                            )}
                             {project.article && (
                                 <a
                                     target="_blank"
