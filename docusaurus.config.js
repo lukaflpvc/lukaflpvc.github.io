@@ -11,7 +11,7 @@ import tailwindPlugin from './plugins/tailwind-config.js';
 const config = {
   title: 'Luka Filipović',
   tagline: 'Personal Website',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-32x32.png',
 
   // Set the production url of your site here
   url: 'https://lukafilipovic.com',
@@ -104,6 +104,11 @@ const config = {
             to: '/reading-list/to-read'
           },
           {
+            position: 'left',
+            label: 'Design',
+            to: '/design',
+          },
+          {
             position: 'right',
             label: 'Blog',
             to: '/blog',
@@ -126,52 +131,13 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Contact',
-            items: [
-              {
-                label: 'LinkedIn',
-                href: 'https://linkedin.com/in/lukafilipxvic',
-              },
-              {
-                label: 'Email',
-                href: 'mailto:luka@lukafilipovic.com?subject=Hello from my site'
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
+        logo: {
+          alt: 'Filipovic Crest',
+          src: 'img/filipovic_crest.svg',
+          href: '/',
+          width: 50,
+          height: 50,
+        },
         copyright: `© ${new Date().getFullYear()} Luka Filipović`,
       },
       prism: {

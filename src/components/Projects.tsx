@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
+import ThemedImage from '@theme/ThemedImage';
 
 const projects = [
     {
         title: 'App Store Rank',
         source_code: '',
         link: 'https://apprank.streamlit.app',
-        desc: 'Historical App Store ranks for applications.',
+        image_light: '/projects/apprank.png',
+        desc: 'Historical App Store Ranking viewer.',
         language: 'Python',
         article: '',
     },
@@ -13,8 +15,9 @@ const projects = [
         title: 'UltraSearch',
         source_code: '',
         link: 'https://ultrasearch.cc',
-        image: '/projects/ultrasearch.gif',
-        desc: 'Library Genesis Wrapper for Speed',
+        image_light: '/projects/ultrasearch.gif',
+        image_dark: '/projects/ultrasearch2.gif',
+        desc: 'Library Genesis wrapper for aesthetics and speed.',
         language: 'Python',
         article: '',
     },
@@ -22,6 +25,7 @@ const projects = [
         title: 'My Personal Website',
         source_code: 'https://github.com/lukafilipxvic/lukafilipxvic.github.io',
         link: 'https://lukafilipovic.com',
+        image_light: '/projects/personal-website.png',
         language: 'React JS',
         article: '',
     },
@@ -29,6 +33,7 @@ const projects = [
         title: 'Snapchat Filters',
         source_code: '',
         link: 'https://www.snapchat.com/add/lukafilipxvic',
+        image_light: '/projects/snap_lenses.png',
         desc: 'Snapchat filters',
         language: 'Javascript',
         article: '',
@@ -39,12 +44,16 @@ export default function Projects() {
     return (
         <div className="mx-auto mt-8">
             {projects.map((project) => (
-                <div className='flex my-4 mx-2 border-[1px] p-2 rounded border-[#0088CC]'>
+                <div className='flex my-4 mx-2 border-[1px] p-2 rounded]'>
                     <div className='flex justify-start items-center p-4'>
-                        <img
-                            src={project.image}
+                        {/* Replace the <img> tag with ThemedImage */}
+                        <ThemedImage
+                            sources={{
+                                light: project.image_light,
+                                dark: project.image_dark || project.image_light, // Fallback to project.image_light if image_dark is not specified
+                            }}
                             alt={project.title}
-                            className="w-[200px] object-cover"
+                            className="w-[10em] object-cover"
                         />
                     </div>
                     <div className='flex flex-col justify-start items-start ml-0 text-left p-2'>
@@ -64,7 +73,7 @@ export default function Projects() {
                                 className="mr-4 !no-underline"
                             >
                                 <button
-                                    className="flex rounded-xl p-2 whitespace-nowrap text-sm font-semibold bg-[#b93430] hover:bg-grey-300 hover:dark:bg-grey-200 hover:text-[#0088CC] hover:no-underline"
+                                    className="flex rounded-xl p-2 whitespace-nowrap text-sm font-semibold bg-[#b93430] hover:bg-grey-300 hover:dark:bg-grey-200 hover:text-[#ffffff] hover:no-underline"
                                     type="button"
                                 >
                                     View Project
