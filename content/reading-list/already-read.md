@@ -3,5 +3,7 @@ title: Already Read
 sidebar_position: 2
 ---
 
-To add.
-Book covers with Author, Days to read, Rating.
+import BooksAlreadyRead from '@site/src/components/Books/BooksAlreadyRead.tsx'
+
+*Connected via NotionDB*
+<BooksAlreadyRead />

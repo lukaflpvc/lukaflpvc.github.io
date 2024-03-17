@@ -3,6 +3,10 @@ title: To Read
 sidebar_position: 1
 ---
 
-**Currently reading:** *Selling to the Affluent*  by Dr Thomas Stanley
+import BooksToRead from '@site/src/components/Books/BooksToRead.tsx'
 
--- To read in the future.
+*Connected via NotionDB*
+
+Currently reading *Selling to the Affluent* by Dr Thomas Stanley.
+
+<BooksToRead />

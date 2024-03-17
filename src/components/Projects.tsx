@@ -7,7 +7,7 @@ const projects = [
         source_code: '',
         link: 'https://apprank.streamlit.app',
         image_light: '/projects/apprank.png',
-        desc: 'Historical App Store Ranking viewer.',
+        desc: 'Historical App Store ranking viewer.',
         language: 'Python',
         article: '',
     },

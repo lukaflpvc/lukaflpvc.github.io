@@ -7,4 +7,4 @@ import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
 
 <HeadTitle title="Design | Luka Filipović" />
 
-To add.
+To be created.
