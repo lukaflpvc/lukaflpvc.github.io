@@ -115,18 +115,27 @@ const config = {
           },
           {
             position: 'right',
+            href: 'mailto:luka@lukafilipovic.com',
+            className: "header-mail-link",
+            "aria-label": "Email Address",
+          },
+          {
+            position: 'right',
             href: 'https://linkedin.com/in/lukafilipxvic',
-            className: 'navbar--linkedin-link'
+            className: "header-linkedin-link",
+            "aria-label": "LinkedIn profile",
           },
           {
             position: 'right',
             href: 'https://twitter.com/lukafilipxvic',
-            className: 'navbar--twitter-link'
+            className: 'header-twitter-link',
+            "aria-label": "Twitter profile",
           },
           {
             position: 'right',
             href: 'https://github.com/lukafilipxvic',
-            className: 'navbar--github-link'
+            className: 'header-github-link',
+            "aria-label": "GitHub repository",
           },
         ],
       },
