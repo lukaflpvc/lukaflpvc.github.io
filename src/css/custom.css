@@ -82,8 +82,11 @@ h1 {
 }
 
 /* Navbar */
-.navbar{
-	background: rgba(255, 255, 255, 0.9);
+@media (min-width: 1000px) {
+  nav.navbar.navbar--fixed-top {
+    --tw-backdrop-blur: blur(8px);
+    background: var(--ifm-top-menu-color);
+  }
 }
 
 html[data-theme='dark'] .navbar{
