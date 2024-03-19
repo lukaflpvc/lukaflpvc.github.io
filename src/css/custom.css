@@ -84,7 +84,7 @@ h1 {
 /* Navbar */
 @media (min-width: 997px) {
   nav.navbar.navbar--fixed-top {
-    --tw-backdrop-blur: blur(24px);
+    backdrop-filter: blur(16px);
     background: var(--ifm-top-menu-color);
   }
 }
