@@ -82,9 +82,9 @@ h1 {
 }
 
 /* Navbar */
-@media (min-width: 1000px) {
-  .navbar {
-    --tw-backdrop-blur: blur(8px);
+@media (min-width: 997px) {
+  nav.navbar.navbar--fixed-top {
+    backdrop-filter: blur(8px);
     background: var(--ifm-top-menu-color);
   }
 }
