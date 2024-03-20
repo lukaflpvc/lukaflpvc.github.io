@@ -22,7 +22,7 @@ def extract_property(item, property_name):
         return prop["status"]["name"]
     elif prop.get("type") == "multi_select" and prop.get("multi_select"):
         return ", ".join([genre["name"] for genre in prop["multi_select"]])
-    elif prop.get("type") == "select" and prop.get("type"):
+    elif prop.get("type") == "select" and prop.get("select"):
         return prop["select"]["name"]
     # Add more conditions as needed for other types
     return None
@@ -34,7 +34,7 @@ def main():
     load_dotenv()
 
     notion_token = os.environ.get("NOTION_API_KEY")
-    notion_db_id = os.environ.get("NOTION_BOOK_DATABASE_ID")
+    notion_db_id = os.environ.get("NOTION_DATABASE_BOOKS")
 
     client = Client(auth=notion_token)
 
@@ -47,7 +47,6 @@ def main():
     rows_data = []
 
     for item in db_info["results"]:
-        print(item)
         # Extract the desired properties
         type = extract_property(item, "Type")
         title = extract_property(item, "Title")

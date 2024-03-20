@@ -6,6 +6,7 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 import tailwindPlugin from './plugins/tailwind-config.js';
+import 'dotenv/config';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,6 +16,11 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://lukafilipovic.com',
+
+  customFields: {
+    NOTION_API_KEY: process.env.NOTION_API_KEY,
+    NOTION_DATABASE_BOOKS: process.env.NOTION_DATABASE_BOOKS,
+  },
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
