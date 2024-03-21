@@ -6,7 +6,6 @@
 
 import { themes as prismThemes } from 'prism-react-renderer';
 import tailwindPlugin from './plugins/tailwind-config.js';
-import 'dotenv/config';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,10 +16,6 @@ const config = {
   // Set the production url of your site here
   url: 'https://lukafilipovic.com',
 
-  customFields: {
-    NOTION_API_KEY: process.env.NOTION_API_KEY,
-    NOTION_DATABASE_BOOKS: process.env.NOTION_DATABASE_BOOKS,
-  },
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -60,6 +55,18 @@ const config = {
             'https://github.com/lukafilipxvic/lukafilipxvic.github.io/tree/main/',
         },
         blog: {
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Luka Filipović`,
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
           blogTitle: 'My blog',
           blogDescription: 'A Docusaurus powered blog!',
           showReadingTime: true,

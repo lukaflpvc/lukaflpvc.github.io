@@ -4,7 +4,6 @@ import BooksList from '../General/BooksList';
 
 const BooksAlreadyRead = () => {
   const [data, setData] = useState([]);
-  const notion = require('../notion')
 
   useEffect(() => {
     fetch('../../../db/books_finished.csv')

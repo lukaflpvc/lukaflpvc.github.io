@@ -5,5 +5,4 @@ sidebar_position: 2
 
 import BooksAlreadyRead from '@site/src/components/Books/BooksAlreadyRead.tsx'
 
-*Connected via NotionDB*
 <BooksAlreadyRead />
