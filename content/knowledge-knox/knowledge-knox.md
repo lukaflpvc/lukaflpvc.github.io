@@ -5,7 +5,10 @@ sidebar_position: 5
 
 # Knowledge Knox
 
-Here is a record of all the people and website I found useful.
+Here is a record of the articles, people and website I found useful.
+
+## Articles
+
 
 ## Websites
 

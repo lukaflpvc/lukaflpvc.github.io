@@ -47,7 +47,6 @@ export default function Projects() {
             {projects.map((project) => (
                 <div className='flex my-4 mx-2 border-[1px] p-2 rounded]'>
                     <div className='flex justify-start items-center p-4'>
-                        {/* Replace the <img> tag with ThemedImage */}
                         <ThemedImage
                             sources={{
                                 light: project.image_light,
