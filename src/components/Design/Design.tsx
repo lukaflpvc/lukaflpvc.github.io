@@ -8,6 +8,12 @@ const Designs = [
         image: '/design/hrvatska-linije.png',
     },
     {
+        title: 'XBT Graphics',
+        year: '2022',
+        link: '',
+        image: '/design/xbt-graphics.png',
+    },
+    {
         title: 'Nike Mercurial Concept',
         year: '2017',
         link: '',
