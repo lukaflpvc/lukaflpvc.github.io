@@ -30,7 +30,7 @@ export default function Home() {
             My Mission.
           </h1>
           <div className="_subtitle text-lg text-pretty mb-8">
-            I am a passionate advocate for <span className='transition-colors duration-500 delay-100 h-0.5 bg-yellow-200'>purpose-driven </span> people because it is a quality that sparks meaningful contributions and forsters positive impacts to all. <br />
+            I am a passionate advocate for <span className='transition-colors duration-500 delay-100 h-0.5'>purpose-driven </span> people because it is a quality that sparks meaningful contributions and forsters positive impacts to all. <br />
             I am a strong advocate for lifelong learning.
           </div>
           <h1 className="_h1 !mb-2 ">
