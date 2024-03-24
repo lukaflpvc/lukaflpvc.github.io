@@ -13,6 +13,24 @@ const Designs = [
         link: '',
         image: '/design/mercurial.png',
     },
+    {
+        title: 'Nike Magista Concept',
+        year: '2017',
+        link: '',
+        image: '/design/magista.png',
+    },
+    {
+        title: 'Nike MagistaX Concept',
+        year: '2017',
+        link: '',
+        image: '/design/magistax.png',
+    },
+    {
+        title: 'Nike Hypervenom Concept',
+        year: '2017',
+        link: '',
+        image: '/design/hypervenom.png',
+    },    
 ];
 
 export default function Design() {
@@ -33,9 +51,9 @@ export default function Design() {
                         <div className='border-b w-full'></div>
                     </div>
                     <div>
-                        <div className="grid gap-4 grid-flow-col grid-cols-3" style={{width: 'fit-content' }}>
+                        <div className="grid gap-4 grid-flow-col" style={{width: 'fit-content' }}>
                         {designs.map((design, index) => (
-                            <div key={index} className="" title={design.title} style={{border: '1px solid grey'}}>
+                            <div key={index} className="border" title={design.title} style={{border: '1px solid grey'}}>
                                 <img
                                     src={design.image}
                                     title={design.title}
