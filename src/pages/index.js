@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
           <div className="_subtitle text-lg text-pretty mb-8">
             I am a recent graduate with a Bachelor of Finance majoring in Capital Markets and minoring in International Business.
-            I am extremely passionate about everything innovation an technology, particularly in generative AI and finance.
+            I am extremely passionate about everything innovation and technology, particularly in generative AI and finance.
             I love to travel and explore new places to widen my horizon.
           </div>
           <h1 className="_h1 !mb-2 ">
