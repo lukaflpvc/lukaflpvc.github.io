@@ -122,6 +122,10 @@ const config = {
             to: '/design',
           },
           {
+            position: 'left',
+            label: 'Course Notes',
+            to: '/notes',
+          },          {
             position: 'right',
             label: 'Blog',
             to: '/blog',

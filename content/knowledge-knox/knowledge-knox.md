@@ -1,6 +1,6 @@
 ---
 title: Knowledge Knox
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Knowledge Knox
@@ -32,7 +32,7 @@ A record of articles, people and websites I found interesting or useful.
 
 ## **People**
 * [Adam Grant](https://www.adamgrant.info/adam "Author and Organizational Psychologist")
-* [Christina Qi](https://christinaqi.com "The Finance Quant")
+* [Christina Qi](https://christinaqi.com "Finance Data Quant and ex-Fundie")
 * [Jerome Paulos](https://jero.zone "Software Engineer and Blogger")
 * [Matthew Rocklin](https://matthewrocklin.com "Data Scientist and Developer")
 * [Matt Rickard](https://matt-rickard.com "Entrepreneur and Investor")
@@ -41,7 +41,8 @@ A record of articles, people and websites I found interesting or useful.
 
 
 ## **Websites**
-* [80,000 Hours](https://80000hours.org "Career Advice")
+* [37Signals](https://37signals.com/ "A Catalog of Ideas")
+* [80,000 Hours](https://80000hours.org "Purpose-Driven Career Advice")
 * [AirTree Open Source VC](https://www.airtree.vc/open-source-vc "Resources for Startups")
 * [Hacker News](https://news.ycombinator.com/ "News for Tech and Startups")
 * [UltraSearch](https://ultrasearch.cc "Free Access to Knowledge")
