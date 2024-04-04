@@ -4,8 +4,8 @@ media:
 content:
   - name: blog
     label: Blog Posts
-    path: blog
     type: collection
+    path: blog
     view:
       fields: [ title, published, date ]
     fields:
@@ -24,5 +24,17 @@ content:
         type: rich-text
   - name: config
     label: Site Configurations
-    path: docusaurus.config.js
     type: file
+    path: docusaurus.config.js
+    icon: settings-2
+  - name: projects
+    label: Projects
+    type: file
+    path: src/components/Projects.tsx
+    icon: square-kanban
+  - name: blogroll
+    label: Knowledge Knox
+    type: file
+    path: content/knowledge-knox
+    icon: lightbulb
+    
