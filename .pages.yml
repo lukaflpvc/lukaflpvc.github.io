@@ -26,7 +26,3 @@ content:
     label: Site Configurations
     path: docusaurus.config.js
     type: file
-    fields:
-      - name: config
-        label: Website config file
-        type: string
