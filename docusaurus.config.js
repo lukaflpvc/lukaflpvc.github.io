@@ -144,12 +144,6 @@ const config = {
           },
           {
             position: 'right',
-            href: 'https://twitter.com/lukafilipxvic',
-            className: 'header-twitter-link',
-            "aria-label": "Twitter profile",
-          },
-          {
-            position: 'right',
             href: 'https://github.com/lukafilipxvic',
             className: 'header-github-link',
             "aria-label": "GitHub repository",
@@ -158,7 +152,7 @@ const config = {
       },
       footer: {
         logo: {
-          alt: 'Filipovic Crest',
+          alt: 'Filipović Crest',
           src: 'img/filipovic_crest.svg',
           href: '/',
           width: 50,

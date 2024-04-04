@@ -5,7 +5,7 @@ sidebar_position: 5
 
 # Course Notes
 Notes from my Undergraduate studies. All information is free to use.
-I have no intentions of voilating any Australian National University (ANU) policies and will gladly honour takedown notices produced by an authorised ANU representative (contact me <u>[here](mailto:luka@lukafilipovic.com)</u>).
+I have no intentions of voilating any university policies and will gladly honour takedown notices produced by an authorised university representative (contact me <u>[here](mailto:dmca@lukafilipovic.com)</u>).
 
 Feel free to add comments on the Notion pages.
 

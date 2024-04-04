@@ -29,6 +29,7 @@ A record of articles, people and websites I found interesting or useful.
 * [The Luck Factor: Increasing the Amount of Luck that People Encounter](http://richardwiseman.com/resources/The_Luck_Factor.pdf "By Richard Wiseman")
 * [Traits of Blogs I Genuinely Enjoy Reading](https://johnjago.com/blog-traits/ "By John Jago")
 * [Attention is Your Scarcest Resource](https://www.benkuhn.net/attention "By Ben Kuhn")
+* [Finding Fufillment](https://longform.asmartbear.com/fulfillment/ "By Jason Cohen")
 
 ## **People**
 * [Adam Grant](https://www.adamgrant.info/adam "Author and Organizational Psychologist")

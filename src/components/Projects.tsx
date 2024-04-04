@@ -4,6 +4,16 @@ import ThemedImage from '@theme/ThemedImage';
 
 const projects = [
     {
+        title: 'Pyzam',
+        source_code: 'https://github.com/lukafilipxvic/Pyzam',
+        link: 'https://github.com/lukafilipxvic/Pyzam',
+        image_light: '/projects/pyzam-logo-dark.png',
+        image_dark: '/projects/pyzam-logo-light.png',
+        desc: 'Shazam for Mixtapes.',
+        language: 'Python',
+        article: '',
+    },
+    {
         title: 'App Store Rank',
         source_code: '',
         link: 'https://apprank.streamlit.app',
