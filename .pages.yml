@@ -32,7 +32,7 @@ content:
     type: file
     path: src/components/Projects.tsx
     icon: square-kanban
-  - name: blogroll
+  - name: knowledge-knox
     label: Knowledge Knox
     type: file
     path: content/knowledge-knox
