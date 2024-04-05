@@ -9,7 +9,7 @@ content:
     view:
       fields: [ title, published, date ]
     fields:
-      - name: published
+      - name: unlisted
         label: Published
         type: boolean
         default: true
