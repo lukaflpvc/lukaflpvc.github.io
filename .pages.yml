@@ -7,7 +7,7 @@ content:
     type: collection
     path: blog
     view:
-      fields: [ title, published, date ]
+      fields: [ title, unlisted, date ]
     fields:
       - name: unlisted
         label: Published
