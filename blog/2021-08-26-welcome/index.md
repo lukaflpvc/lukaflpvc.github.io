@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [luka]
+authors: luka
 tags: [facebook, hello, docusaurus]
 unlisted: true
 ---
