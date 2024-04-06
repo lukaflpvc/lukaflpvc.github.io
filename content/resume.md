@@ -1,0 +1,23 @@
+---
+title: Résumé
+sidebar_position: 2
+---
+
+# Résumé
+
+## **Work**
+**February 2024 - March 2024**
+:   Junior Associate\
+    Conscia Pty Ltd.
+    * Consultant in the Advisory and Project Management team.
+    * Delivered across projects in the fields of 
+    business advisory, M&A, corporate strategy, and Australian Defence projects
+
+
+## **Education**
+
+**February 2021 - December 2023**
+:   BFIN, Capital Markets\
+    Australian National University
+    * *Minor: International Business*
+    * *Distinction WAM*

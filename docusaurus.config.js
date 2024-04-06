@@ -108,13 +108,8 @@ const config = {
           },
           {
             position: 'left',
-            label: 'Resume',
-            to: '/resume/experience'
-          },
-          {
-            position: 'left',
-            label: 'Reading List',
-            to: '/reading-list/to-read'
+            label: 'Résumé',
+            to: '/resume'
           },
           {
             position: 'left',
@@ -151,13 +146,6 @@ const config = {
         ],
       },
       footer: {
-        logo: {
-          alt: 'Filipović Crest',
-          src: 'img/filipovic_crest.svg',
-          href: '/',
-          width: 50,
-          height: 50,
-        },
         copyright: `© ${new Date().getFullYear()} Luka Filipović`,
       },
       prism: {

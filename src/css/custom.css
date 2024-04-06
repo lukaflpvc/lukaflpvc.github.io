@@ -12,7 +12,9 @@
 @tailwind utilities;
 
 :root {
-	max-width: 996px;
+	padding-left: 1em;
+	padding-right: 1em;
+	max-width: 840px;
 	margin-left: auto;
 	margin-right: auto;	
   --doc-sidebar-width: 200px !important;
@@ -23,6 +25,7 @@
   --ifm-color-primary-light: #ce3232;
   --ifm-color-primary-lighter: #d03b3b;
   --ifm-color-primary-lightest: #d24444;
+  --ifm-footer-background-color: #ffffff; 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -30,6 +33,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
 	--ifm-background-color: #1e2125;
+	--ifm-footer-background-color: #1e2125; 
 	--ifm-background-surface-color: #121212;
   }
   
@@ -45,6 +49,8 @@ html[data-theme='dark'] {
 }
 
 /* Footer */
+.footer{
+}
 .footer__copyright {
 	opacity: 0.6;
   }
@@ -214,3 +220,8 @@ div[class^='announcementBarContent'] {
 	  display: none;
 	}
   }
+
+/* Book List */
+body[data-theme='dark'] .book-list-border {
+border-color: #444950;
+}
