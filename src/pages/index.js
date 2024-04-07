@@ -19,11 +19,11 @@ export default function Home() {
       <main>
         <div className="mx-auto mt-16 flex flex-col px-3 text-left md:mt-16">
           <h1 className="_h1 !mb-2 ">
+            Hi, my name is Luka 👋
           </h1>
           <div className="_subtitle text-lg text-pretty mb-8">
-            I am a recent graduate with a Bachelor of Finance majoring in Capital Markets and minoring in International Business.
+            I am a recent graduate with a Bachelor of Finance in Capital Markets and International Business.
             I am insanely passionate about innovation and technology, particularly language models and finance.
-            I love to travel and explore new places.
           </div>
           <h1 className="_h1 !mb-1 ">
             My Mission
@@ -39,7 +39,7 @@ export default function Home() {
             Junior Associate at Conscia Pty Ltd, having worked in the Advisory and Project Management space. I am known as the go to 'Data Specialist.'
             <br />
             <br />
-            On the side, I am building a funding arbitrage bot.
+            On the side, I am building mini CLI projects.
           </div>
         </div>
       </main>
