@@ -5,7 +5,6 @@ import ThemedImage from '@theme/ThemedImage';
 const projects = [
     {
         title: 'Pyzam',
-        source_code: 'https://github.com/lukafilipxvic/Pyzam',
         link: 'https://github.com/lukafilipxvic/Pyzam',
         image_light: '/projects/pyzam-logo-dark.png',
         image_dark: '/projects/pyzam-logo-light.png',
@@ -15,7 +14,6 @@ const projects = [
     },
     {
         title: 'App Store Rank',
-        source_code: '',
         link: 'https://apprank.streamlit.app',
         image_light: '/projects/apprank.png',
         desc: 'Historical App Store ranking viewer.',
@@ -24,7 +22,6 @@ const projects = [
     },
     {
         title: 'UltraSearch',
-        source_code: '',
         link: 'https://ultrasearch.cc',
         image_light: '/projects/ultrasearch.gif',
         image_dark: '/projects/ultrasearch2.gif',
@@ -34,15 +31,13 @@ const projects = [
     },
     {
         title: 'My Personal Website',
-        source_code: 'https://github.com/lukafilipxvic/lukafilipxvic.github.io',
-        link: 'https://lukafilipovic.com',
+        link: 'https://github.com/lukafilipxvic/lukafilipxvic.github.io',
         image_light: '/projects/personal-website.png',
         language: 'React JS',
-        article: '',
+        article: 'https://lukafilipovic.com',
     },
     {
         title: 'Snapchat Filters',
-        source_code: '',
         link: 'https://www.snapchat.com/add/lukafilipxvic',
         image_light: '/projects/snap_lenses.png',
         desc: 'Snapchat filters',
@@ -55,7 +50,7 @@ export default function Projects() {
     return (
         <div className="mx-auto mt-8">
             {projects.map((project) => (
-                <div className='flex my-4 mx-2 border-[1px] p-2 rounded]'>
+                <div className='flex my-4 border-[1px] p-2 rounded]'>
                     <div className='flex justify-start items-center p-4'>
                         <ThemedImage
                             sources={{
@@ -89,20 +84,6 @@ export default function Projects() {
                                     View Project
                                 </button>
                             </a>
-                            {project.source_code && (
-                                <a
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href={project.source_code} 
-                                >
-                                    <button
-                                        className="flex rounded-xl p-2 whitespace-nowrap text-sm"
-                                        type="button"
-                                    >
-                                        Source Code
-                                    </button>
-                                </a>
-                            )}
                             {project.article && (
                                 <a
                                     target="_self"
@@ -113,7 +94,7 @@ export default function Projects() {
                                         className="flex rounded-xl p-2 whitespace-nowrap text-sm"
                                         type="button"
                                     >
-                                        Read more
+                                        Learn more
                                     </button>
                                 </a>
                             )}

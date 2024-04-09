@@ -13,29 +13,32 @@ export default function Home() {
 
   return (
     <Layout
-      title=""
+      title="Luka Filipovic"
       description="I am a recent Bachelor of Finance graduate who is insanely passionate about innovation and technology."
     >
       <main>
-        <div className="mx-auto mt-16 flex flex-col px-3 text-left md:mt-16">
-          <h1 className="_h1 !mb-2 ">
-            Hi, my name is Luka 👋
-          </h1>
-          <div className="_subtitle text-lg text-pretty mb-8">
-            I am a recent graduate with a Bachelor of Finance in Capital Markets and International Business.
-            I am insanely passionate about innovation and technology, particularly language models and finance.
-          </div>
+        <div className="mx-auto mt-16 flex flex-col px-3 text-left md:mt-10">
+          <h1 className="h1 !mb-2">
+            Hello, my name is Luka 👋
+            </h1>
+            <p className='line-through'> I live on the second floor</p>
+
+          <div className="text-pretty mb-8">
+            <p> I'm a recent graduate with a Bachelor of Finance in Capital Markets and International Business.
+            I am insanely passionate about innovation and technology, particularly automation and finance.
+            </p>
+            </div>
           <h1 className="_h1 !mb-1 ">
             My Mission
           </h1>
-          <div className="_subtitle text-lg text-pretty mb-8">
+          <div className="text-pretty mb-8">
             I am a passionate advocate for purpose-driven people because it is a quality that sparks meaningful contributions and forsters positive impacts to all. <br />
             I am a strong advocate for lifelong learning.
           </div>
           <h1 className="_h1 !mb-1 ">
             Current Work.
           </h1>
-          <div className="_subtitle text-lg text-pretty mb-16">
+          <div className="text-pretty mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             <br />
             <br />
