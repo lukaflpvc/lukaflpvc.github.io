@@ -1,6 +1,7 @@
 ---
 title: Course Notes
 sidebar_position: 5
+hide_table_of_contents: true
 ---
 
 # Course Notes

@@ -11,7 +11,7 @@ const projects = [
         image_dark: '/projects/pyzam-logo-light.png',
         desc: 'Shazam for Mixtapes.',
         language: 'Python',
-        article: '',
+        article: '../blog/pyzam',
     },
     {
         title: 'App Store Rank',
@@ -105,7 +105,7 @@ export default function Projects() {
                             )}
                             {project.article && (
                                 <a
-                                    target="_blank"
+                                    target="_self"
                                     rel="noreferrer"
                                     href={project.article}
                                 >

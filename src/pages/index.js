@@ -36,7 +36,7 @@ export default function Home() {
             Current Work.
           </h1>
           <div className="_subtitle text-lg text-pretty mb-16">
-            Junior Associate at Conscia Pty Ltd, having worked in the Advisory and Project Management space. I am known as the go to 'Data Specialist.'
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             <br />
             <br />
             On the side, I am building mini CLI projects.
