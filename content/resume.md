@@ -4,6 +4,10 @@ sidebar_position: 2
 hide_table_of_contents: true
 ---
 
+import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
+
+<HeadTitle title="Résumé" />
+
 # Résumé
 
 ## **Work**

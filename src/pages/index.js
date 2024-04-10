@@ -13,7 +13,6 @@ export default function Home() {
 
   return (
     <Layout
-      title="Luka Filipovic"
       description="I am a recent Bachelor of Finance graduate who is insanely passionate about innovation and technology."
     >
       <main>
@@ -21,8 +20,6 @@ export default function Home() {
           <h1 className="h1 !mb-2">
             Hello, my name is Luka 👋
             </h1>
-            <p className='line-through'> I live on the second floor</p>
-
           <div className="text-pretty mb-8">
             <p> I'm a recent graduate with a Bachelor of Finance in Capital Markets and International Business.
             I am insanely passionate about innovation and technology, particularly automation and finance.

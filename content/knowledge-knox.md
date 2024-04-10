@@ -3,6 +3,10 @@ title: Knowledge Knox
 sidebar_position: 6
 ---
 
+import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
+
+<HeadTitle title="Knowledge Knox" />
+
 # Knowledge Knox
 
 A record of articles, people and websites I found interesting or useful.

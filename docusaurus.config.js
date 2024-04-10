@@ -56,10 +56,10 @@ const config = {
             'https://github.com/lukafilipxvic/lukafilipxvic.github.io/tree/main/',
         },
         blog: {
-          blogTitle: "Luka Filipović's Blog",
+          blogTitle: "Blog",
           blogDescription: 'The personal blog of Luka Filipović',
           showReadingTime: true,
-          blogSidebarTitle: 'All posts',
+          blogSidebarTitle: 'Recent posts',
           blogSidebarCount: "ALL",
           feedOptions: {
             type: 'all',
@@ -156,17 +156,6 @@ const config = {
         ],
       },
       footer: {
-        links: [
-          {
-            html: `
-            <p class="text-sm text--center">  
-            email: <a class="underline" href="mailto:luka@lukafilipovic.com" target="_blank" rel="noreferrer noopener" aria-label="email">
-              luka@lukafilipovic.com
-              </a>
-            </p>
-            `,
-          },
-        ],
         copyright: `© ${new Date().getFullYear()} Luka Filipović`,
       },
       prism: {

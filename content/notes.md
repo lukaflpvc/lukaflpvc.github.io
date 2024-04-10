@@ -4,6 +4,10 @@ sidebar_position: 5
 hide_table_of_contents: true
 ---
 
+import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
+
+<HeadTitle title="Course Notes" />
+
 # Course Notes
 Notes from my Undergraduate studies. All information is free to use.
 I have no intentions of voilating any university policies and will gladly honour takedown notices produced by an authorised university representative (contact me <u>[here](mailto:dmca@lukafilipovic.com)</u>).

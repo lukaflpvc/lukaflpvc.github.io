@@ -6,6 +6,10 @@ tags: [projects, python]
 unlisted: true
 ---
 
+import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
+
+<HeadTitle title="Pyzam" />
+
 I love listening to mixtapes. You get to find new songs that spark a curious feeling inside of you.
 
 A problem I had was not being able to 
