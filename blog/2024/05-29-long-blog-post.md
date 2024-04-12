@@ -3,7 +3,7 @@ slug: long-blog-post
 title: Long Blog Post
 authors: luka
 tags: [hello, docusaurus]
-unlisted: false
+unlisted: true
 ---
 
 This is the summary of a very long blog post,

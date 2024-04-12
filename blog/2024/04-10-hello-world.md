@@ -10,13 +10,16 @@ import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
 
 <HeadTitle title="Hello, World?" />
 
+The following two words are the universal standard for teaching newbies programming languages: 
+
+
 ```
 print('Hello, World!')
 ```
 
 Why is printing `Hello, World!` the first program every programmer is taught?
 
-How did those two words become the universal standard for teaching programming languages? 
+<!-- truncate -->
 
 It is the easiest thing you could do, but it barely aligns with anyone's original reason of wanting to learn to code.
 

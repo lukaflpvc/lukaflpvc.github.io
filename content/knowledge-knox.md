@@ -34,6 +34,7 @@ A record of articles, people and websites I found interesting or useful.
 * [Traits of Blogs I Genuinely Enjoy Reading](https://johnjago.com/blog-traits/ "By John Jago")
 * [Attention is Your Scarcest Resource](https://www.benkuhn.net/attention "By Ben Kuhn")
 * [Finding Fufillment](https://longform.asmartbear.com/fulfillment/ "By Jason Cohen")
+* [How to send and reply email](https://matt.might.net/articles/how-to-email/ "By Matt Might")
 
 ## **People**
 * [Adam Grant](https://www.adamgrant.info/adam "Author and Organizational Psychologist")

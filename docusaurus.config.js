@@ -59,7 +59,7 @@ const config = {
           blogTitle: "Blog",
           blogDescription: 'The personal blog of Luka Filipović',
           showReadingTime: true,
-          blogSidebarTitle: 'Recent posts',
+          blogSidebarTitle: 'Blog posts',
           blogSidebarCount: "ALL",
           feedOptions: {
             type: 'all',
@@ -88,6 +88,13 @@ const config = {
         },
         googleTagManager: {
           containerId: 'GTM-WLB3RKQV',
+        },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       }),
     ],
