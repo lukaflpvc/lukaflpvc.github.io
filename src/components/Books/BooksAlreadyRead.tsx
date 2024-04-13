@@ -17,7 +17,7 @@ const BooksAlreadyRead = () => {
         const formattedData = results.data.map(book => ({
           title: book.Title, // Use the exact column name from CSV
           author: book.Author, // Use the exact column name from CSV
-          image: book.Image || '../../../img/book-cover.jpg', // Use the exact column name from CSV, provide a default value if necessary
+          image: book.Image ? book.Image : '../../../img/book-cover.jpg', // Check if Image exists, otherwise use default
         }));
         setData(formattedData);
       });
