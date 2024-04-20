@@ -125,8 +125,8 @@ const config = {
           },
           {
             position: 'left',
-            label: 'Résumé',
-            to: '/resume'
+            label: 'Reading List',
+            to: '/reading-list/already-read'
           },
           {
             position: 'left',

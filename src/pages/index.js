@@ -18,7 +18,7 @@ export default function Home() {
       <main>
         <div className="mx-auto mt-16 flex flex-col px-3 text-left md:mt-10">
           <h1 className="h1 !mb-2">
-            Hello, my name is Luka 👋
+            Hello, I'm Luka 👋
             </h1>
           <div className="text-pretty mb-8">
             <p> I'm a recent graduate with a Bachelor of Finance in Capital Markets and International Business.
