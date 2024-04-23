@@ -11,8 +11,16 @@ import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
 # Résumé
 
 ## **Work**
+
+**April 2024 - Present**
+:   Analyst\
+    MinterEllison Consulting
+    * Data Analyst in the Technology Consulting team.
+    
 **February 2024 - March 2024**
 :   Junior Associate\
+**February 2022 - January 2024**
+:   Intern\
     Conscia Pty Ltd.
     * Consultant in the Advisory and Project Management team.
     * Delivered across projects in the fields of 

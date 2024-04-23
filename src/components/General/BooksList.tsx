@@ -16,12 +16,12 @@ export default function BooksList({ books }: BooksListProps) {
     <div>
       <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2">
         {books.map((book) => (
-          <div className='my-2 mx-2 p-2 flex flex-col items-center gap-2 rounded border-[#a5a5a5] max-w-70'>
+          <div className='my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-70'>
             <div className='border-[1px]'>
               <img
                 src={book.image}
                 alt={book.title}
-                className="object-cover hover:drop-shadow-md"
+                className="object-cover hover:drop-shadow-lg"
               />
             </div>
             <div className="text-center">

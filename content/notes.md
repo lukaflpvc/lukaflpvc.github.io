@@ -22,7 +22,7 @@ Regression Modelling (STAT2008):
 <u>[Notion Notes](https://luka10.notion.site/STAT2008-1d0c3a9a79404a92b2917cc89fdf24f2?pvs=4 "Regression Modelling")</u>
 
 ### **2022 H2**
-Courses BUSI2025, FINM3005, MMGT2003 and MKTG2003:
+Courses BUSI2025, FINM3005, MGMT2003 and MKTG2003:
 <u>[Notion Notes](https://luka10.notion.site/5ed77c4558fa4b7daa218b51e7fd14b3?v=be692d7f2d2843938bd8a1e14bddc237&pvs=4 "2022 H2 Notes")</u>
 
 ### **2023 H1**

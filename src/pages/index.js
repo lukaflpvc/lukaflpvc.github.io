@@ -36,10 +36,9 @@ export default function Home() {
             Current Work.
           </h1>
           <div className="text-pretty mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          I'm an Analyst at MinterEllison <span className="ml-[-2px]" style={{color: '#939598'}}>Consulting</span> <span className="ml-[-2px]" style={{ display: 'inline-block', width: '4px', height: '4px', backgroundColor: '#cc2230'}}></span>            <br />
             <br />
-            <br />
-            On the side, I am building mini CLI projects.
+            On the side, I am building mini CLI projects in Python.
           </div>
         </div>
       </main>
