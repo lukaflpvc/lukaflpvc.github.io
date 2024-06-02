@@ -7,6 +7,6 @@ hide_table_of_contents: true
 import BooksToRead from '@site/src/components/Books/BooksToRead.tsx'
 
 
-Currently reading *59 Seconds* by Richard Wiseman.
+I'm currently reading *The Right It* by Alberto Savoia.
 
 <BooksToRead />
