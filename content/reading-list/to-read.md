@@ -7,6 +7,6 @@ hide_table_of_contents: true
 import BooksToRead from '@site/src/components/Books/BooksToRead.tsx'
 
 
-I'm currently reading *The Right It* by Alberto Savoia.
+I'm currently reading *Getting Things Done* by David Allen.
 
 <BooksToRead />
