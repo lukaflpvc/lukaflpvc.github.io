@@ -1,6 +1,6 @@
 ---
 title: Knowledge Knox
-sidebar_position: 6
+sidebar_position:
 ---
 
 import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
