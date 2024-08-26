@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <Layout
-      description="I am a recent Bachelor of Finance graduate who is insanely passionate about innovation and technology."
+      description="I am a recent raduate with a Bachelor of Finance who is insanely passionate about innovation and technology."
     >
       <main>
         <div className="mx-auto mt-16 flex flex-col px-3 text-left md:mt-10">
@@ -29,7 +29,7 @@ export default function Home() {
             My Mission
           </h1>
           <div className="text-pretty mb-8">
-            I am a passionate advocate for purpose-driven people because it is a quality that sparks meaningful contributions and forsters positive impacts to all. <br />
+            I am a passionate advocate for purpose-driven people because it is a quality that sparks meaningful contributions and forsters positive impacts to everyone. <br />
             I am a strong advocate for lifelong learning.
           </div>
           <h1 className="_h1 !mb-1 ">
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="text-pretty mb-8">
           I'm an Analyst at MinterEllison <span className="ml-[-2px]" style={{color: '#939598'}}>Consulting</span> <span className="ml-[-2px]" style={{ display: 'inline-block', width: '4px', height: '4px', backgroundColor: '#cc2230'}}></span>            <br />
             <br />
-            On the side, I am building mini CLI projects in Python.
+            On the side, I am learning fastapi to build APIs for niche use cases. 
           </div>
         </div>
       </main>

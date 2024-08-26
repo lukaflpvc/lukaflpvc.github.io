@@ -1,6 +1,6 @@
 ---
 title: Knowledge Knox
-sidebar_position:
+sidebar_position: 1
 ---
 
 import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
@@ -22,7 +22,6 @@ A record of articles, people and websites I found interesting or useful.
 * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html "By Peter Norvig")
 * [The 10% Edge](https://aliabdaal.com/newsletter/the-10-edge "By Ali Abdaal")
 * [Breaking Down Tasks](https://jacobian.org/2024/mar/11/breaking-down-tasks "By Jacob Kaplan-Moss")
-* [An Ethos for Innovation](https://microsoft.design/articles/an-ethos-for-innovation "By Microsoft")
 * [What Every Computer Science Major Should Know](https://matt.might.net/articles/what-cs-majors-should-know "By Matt Might")
 * [Before a Startup](https://paulgraham.com/before.html "By Paul Graham")
 * [How to Get Startup Ideas](https://paulgraham.com/startupideas.html "By Paul Graham")
@@ -34,7 +33,10 @@ A record of articles, people and websites I found interesting or useful.
 * [Traits of Blogs I Genuinely Enjoy Reading](https://johnjago.com/blog-traits/ "By John Jago")
 * [Attention is Your Scarcest Resource](https://www.benkuhn.net/attention "By Ben Kuhn")
 * [Finding Fufillment](https://longform.asmartbear.com/fulfillment/ "By Jason Cohen")
-* [How to send and reply email](https://matt.might.net/articles/how-to-email/ "By Matt Might")
+* [How To Send and Reply Email](https://matt.might.net/articles/how-to-email/ "By Matt Might")
+* [Lessons Learned from 4,000+ YC Companies](https://amvizion.org/blog/lessons-learned-from-yc.html "By Founder's Library")
+* [The Best Email Scripts For Cold-Emailing](https://80000hours.org/articles/email-scripts/ "By Benjamin Todd")
+* [1001 SaaS Product Ideas](https://www.bannerbear.com/blog/1001-saas-product-ideas/ "By Jon Yongfook")
 
 ## **People**
 * [Adam Grant](https://www.adamgrant.info/adam "Author and Organizational Psychologist")
@@ -50,5 +52,6 @@ A record of articles, people and websites I found interesting or useful.
 * [37Signals](https://37signals.com/ "A Catalog of Ideas")
 * [80,000 Hours](https://80000hours.org "Purpose-Driven Career Advice")
 * [AirTree Open Source VC](https://www.airtree.vc/open-source-vc "Resources for Startups")
+* [Free for Developers](https://free-for.dev/#/ "Software with Free Developer Tiers")
 * [Hacker News](https://news.ycombinator.com/ "News for Tech and Startups")
 * [UltraSearch](https://ultrasearch.cc "Free Access to Knowledge")

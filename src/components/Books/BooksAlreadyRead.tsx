@@ -25,9 +25,6 @@ const BooksAlreadyRead = () => {
 
     return (
       <>
-        <p>
-          Books I have read.
-        </p>
         <BooksList books={data} />
       </>
     );
