@@ -50,10 +50,11 @@ A record of articles, people and websites I found interesting or useful.
 * [Simon Peyton Jones](https://simon.peytonjones.org "Computer Scientist and Researcher")
 
 
-## **Websites**
+## **Tools & Websites**
 * [37Signals](https://37signals.com/ "A Catalog of Ideas")
 * [80,000 Hours](https://80000hours.org "Purpose-Driven Career Advice")
 * [AirTree Open Source VC](https://www.airtree.vc/open-source-vc "Resources for Startups")
 * [Free for Developers](https://free-for.dev/#/ "Software with Free Developer Tiers")
 * [Hacker News](https://news.ycombinator.com/ "News for Tech and Startups")
+* [Strategyzer Knowledge Library](https://www.strategyzer.com/library?type=Tools "Tools for Customer Discovery")
 * [UltraSearch](https://ultrasearch.cc "Free Access to Knowledge")
