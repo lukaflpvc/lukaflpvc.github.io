@@ -37,10 +37,12 @@ A record of articles, people and websites I found interesting or useful.
 * [Lessons Learned from 4,000+ YC Companies](https://amvizion.org/blog/lessons-learned-from-yc.html "By Founder's Library")
 * [The Best Email Scripts For Cold-Emailing](https://80000hours.org/articles/email-scripts/ "By Benjamin Todd")
 * [1001 SaaS Product Ideas](https://www.bannerbear.com/blog/1001-saas-product-ideas/ "By Jon Yongfook")
+* [How I Want You To Write](https://jxnl.co/writing/2024/06/30/how-i-want-you-to-write/ "By Jason Liu")
 
 ## **People**
 * [Adam Grant](https://www.adamgrant.info/adam "Author and Organizational Psychologist")
 * [Christina Qi](https://christinaqi.com "Finance Data Quant and ex-Fundie")
+* [Jason Liu](https://jxnl.co "ML Engineer, Investor and Startup Advisor ")
 * [Jerome Paulos](https://jero.zone "Software Engineer and Blogger")
 * [Matthew Rocklin](https://matthewrocklin.com "Data Scientist and Developer")
 * [Matt Rickard](https://matt-rickard.com "Entrepreneur and Investor")
