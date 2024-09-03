@@ -38,6 +38,7 @@ A record of articles, people and websites I found interesting or useful.
 * [The Best Email Scripts For Cold-Emailing](https://80000hours.org/articles/email-scripts/ "By Benjamin Todd")
 * [1001 SaaS Product Ideas](https://www.bannerbear.com/blog/1001-saas-product-ideas/ "By Jon Yongfook")
 * [How I Want You To Write](https://jxnl.co/writing/2024/06/30/how-i-want-you-to-write/ "By Jason Liu")
+* [The Art of Finishing](https://www.bytedrum.com/posts/art-of-finishing/ "By Tomas Stropus")
 
 ## **People**
 * [Adam Grant](https://www.adamgrant.info/adam "Author and Organizational Psychologist")
