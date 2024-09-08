@@ -45,6 +45,7 @@ A record of articles, people and websites I found interesting or useful.
 * [Christina Qi](https://christinaqi.com "Finance Data Quant and ex-Fundie")
 * [Jason Liu](https://jxnl.co "ML Engineer, Investor and Startup Advisor ")
 * [Jerome Paulos](https://jero.zone "Software Engineer and Blogger")
+* [Mathurah Ravigulan](https://www.mathurah.com "Software Engineer and Investor")
 * [Matthew Rocklin](https://matthewrocklin.com "Data Scientist and Developer")
 * [Matt Rickard](https://matt-rickard.com "Entrepreneur and Investor")
 * [Ronan Berder](https://ronanberder.com "Tech Entrepreneur and Innovator")
