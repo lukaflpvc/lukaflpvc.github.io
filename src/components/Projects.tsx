@@ -22,7 +22,7 @@ const projects = [
     },
     {
         title: 'UltraSearch',
-        link: 'https://ultrasearch.cc',
+        link: 'https://ultrasearch.streamlit.app',
         image_light: '/projects/ultrasearch.gif',
         image_dark: '/projects/ultrasearch2.gif',
         desc: 'Library Genesis wrapper for aesthetics and speed.',
