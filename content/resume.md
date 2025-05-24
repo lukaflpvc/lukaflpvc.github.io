@@ -15,7 +15,7 @@ import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
 **April 2024 - Present**
 :   Analyst\
     MinterEllison Consulting
-    * Data Analyst in the Technology Consulting team.
+    * Negotiated with your Tech companies
     
 **February 2024 - March 2024**
 :   Junior Associate\

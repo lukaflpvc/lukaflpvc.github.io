@@ -51,7 +51,7 @@ html[data-theme='dark'] {
 
 /* Footer */
 .footer__copyright {
-	opacity: 0.6;
+	opacity: 1;
   }
 
 
@@ -86,6 +86,19 @@ h1 {
 	font-size: 2rem;
 	font-weight: 500;
 }
+
+h2 {
+	font-family: 'Erode', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+h3 {
+	font-family: 'Erode', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
 
 /* Navbar */
 .navbar_icon {
@@ -157,3 +170,16 @@ div[class^='announcementBarContent'] {
 body[data-theme='dark'] .book-list-border {
 border-color: #444950;
 }
+
+/* Breadcrumbs*/
+.breadcrumbs {
+	display: flex;
+	align-items: center;
+  }
+
+.breadcrumbs__item {
+	display: flex;
+	align-items: center;
+  }
+  
+  

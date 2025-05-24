@@ -59,7 +59,7 @@ const config = {
           blogTitle: "Blog",
           blogDescription: 'The personal blog of Luka Filipović',
           blogSidebarTitle: 'Blog posts',
-          blogSidebarCount: 0,
+          blogSidebarCount: 'ALL',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Luka Filipović`,
