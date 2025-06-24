@@ -7,6 +7,8 @@
 # Generated files
 .docusaurus
 .cache-loader
+.yarn
+.venv
 
 # Misc
 notion_db.py
@@ -16,6 +18,7 @@ notion_db.py
 .env.development.local
 .env.test.local
 .env.production.local
+
 
 npm-debug.log*
 yarn-debug.log*
