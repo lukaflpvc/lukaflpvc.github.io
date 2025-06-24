@@ -123,6 +123,6 @@ def blog_to_md(notion_token, database_id, output_folder):
 
 if __name__=="__main__":
     print(f"Converting Notion databases into markdown...")
-    reading_list_to_md(notion_token=NOTION_TOKEN, database_id=BOOK_DB, output_folder='content/reading-list')
+    reading_list_to_md(notion_token=NOTION_TOKEN, database_id=BOOK_DB, output_folder='../content/reading-list')
     #blog_to_md(notion_token=NOTION_TOKEN, database_id=WRITING_DB, output_folder='content/')
     print(f"Notion databases has been converted into markdown.")
