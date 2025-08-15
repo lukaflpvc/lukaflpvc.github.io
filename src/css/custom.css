@@ -12,8 +12,8 @@
 @tailwind utilities;
 
 :root {
-	max-width: 720px;
-	margin-left: 0;
+	max-width: 626px;
+	margin-left: auto;
 	margin-right: auto;	
   --doc-sidebar-width: 200px !important;
   --ifm-color-primary: #bc2e2e;
@@ -106,6 +106,17 @@ h3 {
 	padding: 0.2em;
 }
 
+.navbar__title {
+	display: none;
+}
+
+.skipToContent_fXgn {
+	display: none;
+}
+
+.sidebarLogo_isFc {
+	display: none;
+}
 
 /* Transparent Navbar in desktop */
 @media (min-width: 997px) {
@@ -123,7 +134,7 @@ h3 {
 /* Articles */
 article {
 	max-width: 800px;
-	margin-left: 0;
+	margin-left: auto;
 	margin-right: auto;
   padding: 0 1rem;
 }

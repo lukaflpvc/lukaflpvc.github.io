@@ -107,6 +107,10 @@ const config = {
           hideable: true,
         },
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -118,24 +122,24 @@ const config = {
         hideOnScroll: true,
         items: [
           {
-            position: 'left',
+            position: 'right',
+            label: 'Blog',
+            to: '/blog',
+          },
+          {
+            position: 'right',
             label: 'Projects',
             to: '/projects',
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'Reading List',
             to: '/reading-list/already-read'
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'Design',
             to: '/design',
-          },
-          {
-            position: 'right',
-            label: 'Blog',
-            to: '/blog',
           },
         ],
       },

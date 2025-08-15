@@ -17,9 +17,9 @@ export default function Home() {
     >
       <main>
         <div className="mx-auto mt-16 flex flex-col px-3 text-left md:mt-10">
+          <h2 className="text-pretty mb-8">Hi, I'm Luka 🙋‍♂️</h2>
           <div className="text-pretty mb-8">
-            <p> I'm a developer, maker, recent graduate with a Bachelor of Finance in Capital Markets and International Business.
-            I am insanely passionate about innovation and technology, particularly automation and finance.
+            <p> I'm a developer, finance bro, and a marketer.
             </p>
             </div>
           <div className="text-pretty mb-8">
