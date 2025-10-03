@@ -1,13 +1,31 @@
+# Build output
+dist/
+.output/
+
+# Generated types
+.astro/
+
 # Dependencies
-/node_modules
+node_modules/
 
-# Production
-/build
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Generated files
-.docusaurus
-.cache-loader
-.venv
+# Environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# IDE settings
+.idea/
+
+# Netlify build output
+.netlify/
 
 # Misc
 notion_db.py
@@ -17,8 +35,3 @@ notion_db.py
 .env.development.local
 .env.test.local
 .env.production.local
-
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
