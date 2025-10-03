@@ -50,8 +50,8 @@ Check the [demo](https://astro-chiri.netlify.app/) for more details.
 
 ## Commands
 
-- `pnpm new <title>` - Create a new post (use `_title` for drafts)
-- `pnpm update-theme` - Update the theme to the latest version
+- `bun new <title>` - Create a new post (use `_title` for drafts)
+- `bun update-theme` - Update the theme to the latest version
 
 ## References
 
