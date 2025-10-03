@@ -9,7 +9,7 @@
   --sans:
     'Redaction', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  --serif: 'Redaction 20', Baskerville, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --serif: 'Redaction', Baskerville, Georgia, Cambria, 'Times New Roman', Times, serif;
   --mono: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
   --font-size-s: 0.8125rem;
@@ -158,6 +158,16 @@ body {
 :focus-visible {
   outline: 2px solid var(--text-tertiary);
   outline-offset: 2px;
+}
+
+a:hover,
+a:focus {
+  font-style: italic;
+}
+
+a:hover *,
+a:focus * {
+  font-style: normal;
 }
 
 body[data-width] {
