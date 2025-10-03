@@ -1,0 +1,74 @@
+---
+import { themeConfig } from '@/config'
+const today = new Date()
+
+// Function to convert year to Roman numerals
+function toRomanNumerals(num: number): string {
+  const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+  const symbols = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
+  
+  let result = ''
+  for (let i = 0; i < values.length; i++) {
+    while (num >= values[i]) {
+      result += symbols[i]
+      num -= values[i]
+    }
+  }
+  return result
+}
+---
+
+<footer>
+  <div class="footer-content">
+    <div class="copyright">
+      <span class="date">
+        &copy;
+        {toRomanNumerals(today.getFullYear())}
+      </span>
+      {themeConfig.site.author}
+    </div>
+    <!-- <div class="powered-by">
+      Powered by{' '}
+      <a href="https://astro.build">Astro</a> &{' '}
+      <a href="https://github.com/the3ash/astro-chiri">Chiri</a>
+    </div> -->
+  </div>
+</footer>
+<style>
+  footer {
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-light);
+    line-height: 1.75;
+    color: var(--text-secondary);
+    opacity: 0.75;
+    margin-top: 4rem;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .copyright,
+  .powered-by {
+    white-space: nowrap;
+  }
+
+  .copyright .date {
+    opacity: 1;
+  }
+
+  footer a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease-out;
+  }
+
+  footer a:hover {
+    color: var(--text-primary);
+  }
+</style>

@@ -1,41 +1,65 @@
-# Personal Website
+# Chiri 🌸
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator, and [Tailwind CSS](https://tailwindcss.com/).
+![screenshot-light](public/screenshots/screenshot-light.png)
+![screenshot-dark](public/screenshots/screenshot-dark.png)
 
-### Installation
+Chiri is a minimal blog theme built with [Astro](https://astro.build), offering customization options while preserving its clean aesthetic.
 
-```
-$ yarn
-```
+Check the [demo](https://astro-chiri.netlify.app/) for more details.
 
-### Local Development
+## Features
 
-```
-$ yarn start
-```
+- [x] Build with Astro
+- [x] Responsive
+- [x] Light / Dark mode
+- [x] MDX
+- [x] KaTeX
+- [x] Sitemap
+- [x] OpenGraph
+- [x] RSS
+- [ ] Pagination
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Getting Started
 
-### Build
+1. [Fork](https://github.com/the3ash/astro-chiri/fork) this repository, or use this template to [create a new repository](https://github.com/new?template_name=astro-chiri&template_owner=the3ash).
 
-```
-$ yarn build
-```
+2. Run the following commands:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+   ```bash
+   git clone <your-repo-url>
 
-### Deployment
+   cd <your-repo-name>
 
-Using SSH:
+   pnpm install
 
-```
-$ USE_SSH=true yarn deploy
-```
+   pnpm dev
+   ```
 
-Not using SSH:
+3. Edit `src/config.ts` and `src/content/about/about.md` to your liking.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+4. Use `pnpm new <title>` to create new posts, or add your posts to `src/content/posts`.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+5. You need to set adapter as follows before deploying to Netlify, Vercel, or other platforms, but you can set `linkCard` to `false` in `src/config.ts` to skip this step:
+   - **Netlify**: `pnpm add @astrojs/netlify` and add `adapter: netlify()` in `astro.config.ts`.
+   - **Vercel**: `pnpm add @astrojs/vercel` and add `adapter: vercel()` in `astro.config.ts`.
+   - **Cloudflare Pages**: `pnpm add @astrojs/cloudflare` and add `adapter: cloudflare()` in `astro.config.ts`.
+   - **Static (e.g. GitHub Pages)**: `pnpm add @astrojs/static` and add `adapter: static()` in `astro.config.ts`.
+   - Refer to [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) for more details.
+
+&emsp;[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start) [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new) [![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://pages.cloudflare.com/start)
+
+## Commands
+
+- `pnpm new <title>` - Create a new post (use `_title` for drafts)
+- `pnpm update-theme` - Update the theme to the latest version
+
+## References
+
+- https://paco.me/
+- https://benji.org/
+- https://shud.in/
+- https://retypeset.radishzz.cc/
+
+## License
+
+MIT
