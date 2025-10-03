@@ -3,10 +3,11 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://lukafilipovic.com/', // Site domain
-    title: 'Luka Filipovic', // Site title
-    author: 'Luka Filipovic', // Author name
-    description: 'The personal website of Luka Filipovic', // Site description
+    website: 'https://lukafilipovic.com', // Site domain
+    title: 'Luka Filipović', // Site title
+    location: 'Canberra, Australia', // Site location
+    author: 'Luka Filipović', // Author name
+    description: 'The personal website of Luka Filipović', // Site description
     language: 'en-US' // Default language
   },
 
@@ -33,6 +34,6 @@ export const themeConfig: ThemeConfig = {
     toc: true, // Show table of contents (when there is enough page width)
     imageViewer: true, // Enable image viewer
     copyCode: true, // Enable copy button in code blocks
-    linkCard: true // Enable link card
+    linkCard: false // Enable link card
   }
 }

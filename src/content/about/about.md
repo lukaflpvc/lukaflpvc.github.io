@@ -7,10 +7,18 @@ This content will be displayed at the top of the index page.
 You can leave this empty if you don’t want to show any content.
 -->
 
-A static blog theme based on [Astro](https://astro.build), designed for clarity and focus.
+Finance analyst and content creator.
 
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
+**Some of my successes**
 
-Effortlessly share your thoughts in _a calm & dustless space._
+- Negotiated agreements with cloud companies (>$2T market cap)
+- hacked a \$500m data company (they raised $40m in 2020)
+- created snapchat content, gained over 121m views
 
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+
+**Now**
+- [ ] Building an _finance analyst as a service_ for any company.
+- [ ] Creating content people can't stop sharing.
+
+I'd love to hear from you! <mark>Please, [send me an email!](mailto:hi@lukafilipovic.com)</mark>
+

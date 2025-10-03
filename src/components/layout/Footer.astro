@@ -1,6 +1,21 @@
 ---
 import { themeConfig } from '@/config'
 const today = new Date()
+
+// Function to convert year to Roman numerals
+function toRomanNumerals(num: number): string {
+  const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+  const symbols = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
+  
+  let result = ''
+  for (let i = 0; i < values.length; i++) {
+    while (num >= values[i]) {
+      result += symbols[i]
+      num -= values[i]
+    }
+  }
+  return result
+}
 ---
 
 <footer>
@@ -8,15 +23,15 @@ const today = new Date()
     <div class="copyright">
       <span class="date">
         &copy;
-        {today.getFullYear()}
+        {toRomanNumerals(today.getFullYear())}
       </span>
       {themeConfig.site.author}
     </div>
-    <div class="powered-by">
+    <!-- <div class="powered-by">
       Powered by{' '}
       <a href="https://astro.build">Astro</a> &{' '}
       <a href="https://github.com/the3ash/astro-chiri">Chiri</a>
-    </div>
+    </div> -->
   </div>
 </footer>
 <style>

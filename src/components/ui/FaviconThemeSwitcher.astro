@@ -13,7 +13,8 @@
       }
 
       this.mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-      this.svgUrl = '/favicon.svg'
+      // If using a raster favicon (JPEG/PNG), skip SVG color processing
+      this.svgUrl = null
       this.currentColor = null
       this.svgContent = null
 
@@ -22,12 +23,15 @@
     }
 
     async init() {
+      if (!this.svgUrl) {
+        return
+      }
       if (!this.svgContent) {
         try {
           const res = await fetch(this.svgUrl)
           this.svgContent = await res.text()
         } catch (e) {
-          console.warn('Failed to fetch favicon.svg:', e)
+          console.warn('Failed to fetch lf_square.JPEG:', e)
           return
         }
       }
@@ -35,6 +39,7 @@
     }
 
     updateFavicon() {
+      if (!this.svgUrl) return
       const color = this.mediaQuery.matches ? '#ccc' : '#111'
       if (this.currentColor === color) return
       this.currentColor = color

@@ -30,9 +30,9 @@ Check the [demo](https://astro-chiri.netlify.app/) for more details.
 
    cd <your-repo-name>
 
-   pnpm install
+   bun install
 
-   pnpm dev
+   bun dev
    ```
 
 3. Edit `src/config.ts` and `src/content/about/about.md` to your liking.

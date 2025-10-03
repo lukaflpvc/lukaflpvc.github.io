@@ -1,11 +1,6 @@
 ---
 title: Knowledge Knox
-sidebar_position: 1
 ---
-
-import HeadTitle from '@site/src/components/General/HeadTitle.tsx'
-
-<HeadTitle title="Knowledge Knox" />
 
 # Knowledge Knox
 
@@ -23,8 +18,6 @@ A record of articles, people and websites I found interesting or useful.
 * [The 10% Edge](https://aliabdaal.com/newsletter/the-10-edge "By Ali Abdaal")
 * [Breaking Down Tasks](https://jacobian.org/2024/mar/11/breaking-down-tasks "By Jacob Kaplan-Moss")
 * [What Every Computer Science Major Should Know](https://matt.might.net/articles/what-cs-majors-should-know "By Matt Might")
-* [Before a Startup](https://paulgraham.com/before.html "By Paul Graham")
-* [How to Get Startup Ideas](https://paulgraham.com/startupideas.html "By Paul Graham")
 * [How to Write Usefully](https://paulgraham.com/useful.html "By Paul Graham")
 * [How to Work Hard](https://paulgraham.com/hwh.html "By Paul Graham")
 * [How to Do Great Work](https://paulgraham.com/greatwork.html "By Paul Graham")
@@ -36,7 +29,6 @@ A record of articles, people and websites I found interesting or useful.
 * [How To Send and Reply Email](https://matt.might.net/articles/how-to-email/ "By Matt Might")
 * [Lessons Learned from 4,000+ YC Companies](https://amvizion.org/blog/lessons-learned-from-yc.html "By Founder's Library")
 * [The Best Email Scripts For Cold-Emailing](https://80000hours.org/articles/email-scripts/ "By Benjamin Todd")
-* [1001 SaaS Product Ideas](https://www.bannerbear.com/blog/1001-saas-product-ideas/ "By Jon Yongfook")
 * [How I Want You To Write](https://jxnl.co/writing/2024/06/30/how-i-want-you-to-write/ "By Jason Liu")
 * [The Art of Finishing](https://www.bytedrum.com/posts/art-of-finishing/ "By Tomas Stropus")
 
@@ -54,9 +46,8 @@ A record of articles, people and websites I found interesting or useful.
 
 ## **Tools & Websites**
 * [37Signals](https://37signals.com/ "A Catalog of Ideas")
-* [80,000 Hours](https://80000hours.org "Purpose-Driven Career Advice")
 * [AirTree Open Source VC](https://www.airtree.vc/open-source-vc "Resources for Startups")
 * [Free for Developers](https://free-for.dev/#/ "Software with Free Developer Tiers")
 * [Hacker News](https://news.ycombinator.com/ "News for Tech and Startups")
 * [Strategyzer Knowledge Library](https://www.strategyzer.com/library?type=Tools "Tools for Customer Discovery")
-* [UltraSearch](https://ultrasearch.cc "Free Access to Knowledge")
+* [WeLib](https://welib.org "Free Access to Knowledge")

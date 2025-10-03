@@ -5,7 +5,13 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 
 <header>
   <nav>
-    <a href="/">{themeConfig.site.title}</a>
+    <a href="/">
+      <div class="favicon"></div>
+      <div class="title-info">
+        <div class="title">{themeConfig.site.title}</div>
+        <div class="location">{themeConfig.site.location}</div>
+      </div>
+    </a>
     <ThemeToggle />
   </nav>
 </header>
@@ -23,6 +29,36 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
     color: var(--text-primary);
     text-decoration: none;
     min-width: 3rem;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 0.25rem;
+  }
+  
+  .favicon {
+    height: 1.75em;
+    width: 1.75em;
+    background-image: url('/lf_square.JPEG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0em;
+    flex-shrink: 0;
+  }
+  
+  .title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .title {
+    font-weight: var(--font-weight-bold);
+    font-size: 1em;
+  }
+  
+  .location {
+    font-weight: var(--font-weight-light);
+    font-size: 1em;
   }
 </style>

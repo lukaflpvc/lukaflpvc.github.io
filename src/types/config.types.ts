@@ -10,6 +10,7 @@ export type DateFormat =
 export interface SiteInfo {
   website: string
   title: string
+  location: string
   author: string
   description: string
   language: string
