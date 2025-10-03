@@ -30,28 +30,28 @@ Check the [demo](https://astro-chiri.netlify.app/) for more details.
 
    cd <your-repo-name>
 
-   bun install
+   pnpm install
 
-   bun dev
+   pnpm dev
    ```
 
 3. Edit `src/config.ts` and `src/content/about/about.md` to your liking.
 
-4. Use `bun new <title>` to create new posts, or add your posts to `src/content/posts`.
+4. Use `pnpm new <title>` to create new posts, or add your posts to `src/content/posts`.
 
 5. You need to set adapter as follows before deploying to Netlify, Vercel, or other platforms, but you can set `linkCard` to `false` in `src/config.ts` to skip this step:
-   - **Netlify**: `bun add @astrojs/netlify` and add `adapter: netlify()` in `astro.config.ts`.
-   - **Vercel**: `bun add @astrojs/vercel` and add `adapter: vercel()` in `astro.config.ts`.
+   - **Netlify**: `pnpm add @astrojs/netlify` and add `adapter: netlify()` in `astro.config.ts`.
+   - **Vercel**: `pnpm add @astrojs/vercel` and add `adapter: vercel()` in `astro.config.ts`.
    - **Cloudflare Pages**: `bun add @astrojs/cloudflare` and add `adapter: cloudflare()` in `astro.config.ts`.
-   - **Static (e.g. GitHub Pages)**: `bun add @astrojs/static` and add `adapter: static()` in `astro.config.ts`.
+   - **Static (e.g. GitHub Pages)**: `pnpm add @astrojs/static` and add `adapter: static()` in `astro.config.ts`.
    - Refer to [Astro Deployment Guides](https://docs.astro.build/en/guides/deploy/) for more details.
 
 &emsp;[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start) [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new) [![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button)](https://pages.cloudflare.com/start)
 
 ## Commands
 
-- `bun new <title>` - Create a new post (use `_title` for drafts)
-- `bun update-theme` - Update the theme to the latest version
+- `pnpm new <title>` - Create a new post (use `_title` for drafts)
+- `pnpm update-theme` - Update the theme to the latest version
 
 ## References
 
