@@ -4,9 +4,6 @@ title: I built a Shazam for Mixtapes
 pubDate: '2024-12-04'
 ---
 
-**tl\;dr**  run ```uv run pyzam --speaker```
-
-
 I love mixtapes. You get to enter the artist's dream. Just as if you were in the room with them creating magic.
 
 You get to listen new songs. Some of which you may add to your playlist.
