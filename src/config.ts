@@ -3,11 +3,11 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://lukaflpvc.github.io', // Site domain
+    website: 'https://lukafilipovic.com', // Site domain
     title: 'Luka Filipović', // Site title
     location: 'Canberra, Australia', // Site location
     author: 'Luka Filipović', // Author name
-    description: 'The personal website of Luka Filipović', // Site description
+    description: 'The personal site of Luka Filipović', // Site description
     language: 'en-US' // Default language
   },
 
