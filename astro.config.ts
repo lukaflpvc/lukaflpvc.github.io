@@ -15,6 +15,8 @@ import { themeConfig } from './src/config'
 import { imageConfig } from './src/utils/image-config'
 import path from 'path'
 
+import partytown from '@astrojs/partytown';
+
 export default defineConfig({
   site: themeConfig.site.website,
   image: {
@@ -31,13 +33,9 @@ export default defineConfig({
     remarkPlugins: [remarkMath, remarkDirective, remarkEmbeddedMedia, remarkReadingTime, remarkTOC],
     rehypePlugins: [rehypeKatex, rehypeCleanup, rehypeImageProcessor, rehypeCopyCode]
   },
-  integrations: [
-    playformInline({
-      Exclude: [(file) => file.toLowerCase().includes('katex')]
-    }),
-    mdx(),
-    sitemap()
-  ],
+  integrations: [playformInline({
+    Exclude: [(file) => file.toLowerCase().includes('katex')]
+  }), mdx(), sitemap(), partytown()],
   vite: {
     resolve: {
       alias: {
