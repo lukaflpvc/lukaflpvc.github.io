@@ -17,7 +17,7 @@ Finance analyst and content creator.
 
 
 **Now**
-- [ ] Building an _finance analyst as a service_ for any company.
+- [ ] Building a _finance analyst as a service_ for anyone.
 - [ ] Creating content people can't stop sharing.
 
 I'd love to hear from you! <mark>Please, [send me an email!](mailto:hi@lukafilipovic.com)</mark>
