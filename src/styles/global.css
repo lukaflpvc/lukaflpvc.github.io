@@ -111,7 +111,7 @@ body {
   font-size: var(--font-size-m);
   text-autospace: normal;
   text-rendering: optimizeLegibility;
-  line-height: 1.75;
+  line-height: 1.5;
   color: var(--text-primary);
   font-display: swap;
   word-wrap: break-word;

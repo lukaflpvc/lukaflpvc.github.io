@@ -61,7 +61,8 @@
 /* Paragraphs */
 .prose p {
   line-height: 1.75;
-  margin: 1.75em 0;
+  margin-top: 1.75em;
+  margin-bottom: 0.25em;
 }
 
 /* Tables */
@@ -220,7 +221,7 @@
 .prose ul li {
   position: relative;
   padding-left: 0.5rem;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em; /* was 0.5em */
 }
 
 .prose ul li:last-child {
