@@ -19,7 +19,7 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.6",
     "@astrojs/partytown": "^2.1.4",
-    "@astrojs/rss": "^4.0.12",
+    "@astrojs/rss": "^4.0.13",
     "@astrojs/sitemap": "^3.6.0",
     "@playform/inline": "^0.1.2",
     "@resvg/resvg-wasm": "^2.6.2",
