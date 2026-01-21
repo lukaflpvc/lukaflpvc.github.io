@@ -113,7 +113,6 @@ body {
   text-rendering: optimizeLegibility;
   line-height: 1.5;
   color: var(--text-primary);
-  font-display: swap;
   word-wrap: break-word;
   overflow-wrap: break-word;
   margin: 0;

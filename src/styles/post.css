@@ -29,7 +29,7 @@
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-bold);
   line-height: 1.75;
-  margin: 3.75em 0 1.75em 0;
+  margin: 3.75em 0 1.00em 0;
 }
 
 /* Bold text */
@@ -61,8 +61,7 @@
 /* Paragraphs */
 .prose p {
   line-height: 1.75;
-  margin-top: 1.75em;
-  margin-bottom: 0.25em;
+  margin: 1.75em 0 1.00em 0;
 }
 
 /* Tables */
